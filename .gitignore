@@ -1,0 +1,80 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+db.sqlite3
+/media
+/staticfiles
+/static
+
+# Ignore the .env file with environment variables
+.env
+
+# Ignore Django migrations
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# Mac OS
+.DS_Store
+
+# Thumbnails
+*~ 
+
+# Ignore compiled translation files
+*.mo
+
+# Ignore pipenv and poetry files
+Pipfile.lock
+poetry.lock
+
+# Ignore mypy cache
+.mypy_cache/
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache
+coverage.xml
+
+# Pytest
+.pytest_cache/
+
+# Celery
+celerybeat-schedule
+
+# Ansible
+*.retry
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Editor backups
+*.swp
+*~
+
+# Other
+*.bak
+*.old
